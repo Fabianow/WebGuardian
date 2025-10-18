@@ -56,4 +56,105 @@
 <<<<<<< Updated upstream
 =======
 
+<<<<<<< Updated upstream
 /* Layout Principal */
+=======
+/* Layout Principal */
+
+ /* ======= RODAPÉ ======= */
+ footer {
+    background-color: #083D77;
+    color: #FCF7F8;
+    padding: 60px 20px 20px;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+  }
+  
+  /* ======= SEÇÕES ======= */
+  .footer-section h2 {
+    color: #FCF7F8;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section h3 {
+    color: #CED3DC;
+    margin-bottom: 15px;
+  }
+  
+  .footer-section p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #CED3DC;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-section a {
+    color: #5A7D7C;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-section a:hover {
+    color: #FCF7F8;
+  }
+  
+  /* ======= REDES SOCIAIS ======= */
+  .social-links li {
+    display: inline-block;
+    margin-right: 12px;
+  }
+  
+  .social-links a {
+    color: #5A7D7C;
+    font-weight: 600;
+  }
+  
+  .social-links a:hover {
+    color: #FCF7F8;
+  }
+  
+  /* ======= LINHA INFERIOR ======= */
+  .footer-bottom {
+    border-top: 1px solid #5A7D7C;
+    margin-top: 40px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #CED3DC;
+  }
+  
+  .footer-bottom a {
+    color: #5A7D7C;
+    text-decoration: none;
+  }
+  
+  .footer-bottom a:hover {
+    color: #FCF7F8;
+  }
+  
+  /* ======= RESPONSIVIDADE ======= */
+  @media (max-width: 600px) {
+    footer {
+      padding: 40px 15px 15px;
+    }
+    
+    .footer-section h2 {
+      font-size: 1.5rem;
+    }
+  }
+>>>>>>> Stashed changes

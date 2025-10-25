@@ -4,5 +4,5 @@
   Nomes dos Integrantes: 
   Fabiano Martins,
   Silvia Novaes,
-  João Matamala,
+  João Matamala e
   Luciana
